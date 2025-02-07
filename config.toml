@@ -16,14 +16,14 @@ publishDir = "public"
     name    = "About"
     url     = "about"
     weight  = 2
-  [[menu.nav]]
-    name    = "Portfolio"
-    url     = "portfolio"
-    weight  = 3
-  [[menu.nav]]
-    name    = "Posts"
-    url     = "post"
-    weight  = 4
+#  [[menu.nav]]
+#    name    = "Portfolio"
+#    url     = "portfolio"
+#    weight  = 3
+#  [[menu.nav]]
+#    name    = "Posts"
+#    url     = "post"
+#    weight  = 4
   [[menu.nav]]
     name    = "Get in touch"
     url     = "contact"
@@ -74,8 +74,8 @@ publishDir = "public"
     background_image      = "images/backgrounds/bg-abstract.jpg" 
     heading               = "We believe in the power of collaboration and community"
     tagline               = "The Research Community Management Cooperative"
-    primary_button        = "See Our Works"
-    primary_button_url    = "portfolio"
+    primary_button        = "Who we are"
+    primary_button_url    = "about"
     secondary_button      = "Connect with Us"
     secondary_button_url  = "contact"
 
@@ -96,8 +96,8 @@ publishDir = "public"
     title               = "LET’S WORK TOGETHER"
     primary_button      = "Submit Query"
     primary_button_url  = "contact"
-    secondary_button    = "Not Convinced"
-    secondary_button_url = "portfolio"
+    secondary_button    = "Learn More"
+    secondary_button_url = "about"
 
   [params.footer]
     params.footer.qr_print = false
@@ -111,12 +111,12 @@ publishDir = "public"
         [[params.footer.sitemap.link]]
           name = "About Company"
           url  = "about"
-        [[params.footer.sitemap.link]]
-          name = "Projects"
-          url  = "portfolio"
-        [[params.footer.sitemap.link]]
-          name = "Post"
-          url  = "post"
+#        [[params.footer.sitemap.link]]
+#          name = "Projects"
+#          url  = "portfolio"
+#        [[params.footer.sitemap.link]]
+#          name = "Post"
+#          url  = "post"
         [[params.footer.sitemap.link]]
           name = "Contact"
           url  = "contact"
