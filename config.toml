@@ -43,13 +43,13 @@ publishDir = "public"
   # Google Analitycs
   googleAnalitycsID = "Your ID"
   # We're using formspree.io for form handling, paste your formspree url below
-  fabform  = "https://fabform.io/f/USAg2Jl"
+  fabform  = "https://docs.google.com/forms/d/e/1FAIpQLSft25kX4-0Db9qBupK1jC29hInBKZ2QuDmOduyhsCGg1tmR6Q/viewform?usp=dialog"
 
   # Contact Form
   [params.contactForm]
     placeholder_first_name        = "First Name"
-    placeholder_last_name         = "Last Name"
     placeholder_email             = "Email"
+    placeholder_last_name         = "Last Name"
     placeholder_project_type      = "Project Type"
     placeholder_about_the_project = "About the Project"
     send_message                  = "Send Message"

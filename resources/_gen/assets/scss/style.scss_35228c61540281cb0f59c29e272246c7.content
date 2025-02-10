@@ -754,7 +754,7 @@ textarea.form-control {
     .site-contact-title span {
       color: #086e88; }
   .site-contact-form {
-    margin-top: 20px; }
+    margin-top: 10px; }
     .site-contact-form h4 {
       font-weight: 300;
       text-transform: uppercase;
