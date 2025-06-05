@@ -104,7 +104,7 @@ publishDir = "public"
     # Footer Contact Info
     [params.footer.contactInfo]
       title   = "Connect with us"
-      email   = "info@rcmcooperative.com"
+      email   = "cassandra.gouldvanpraag@rcmcooperative.com"
       # Footer Sitemap
       [params.footer.sitemap]
         title   = "Sitemap"
