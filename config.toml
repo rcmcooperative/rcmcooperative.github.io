@@ -71,8 +71,8 @@ publishDir = "public"
   # Banner Section
   [params.banner]
     enable                = true
-    background_image      = "images/backgrounds/bg-abstract.jpg" 
-    heading               = "We believe in the power of collaboration and community"
+    background_image      = "images/backgrounds/x.png" 
+    heading               = "Building equitable, resiliant and collaborative research communities"
     tagline               = "The Research Community Management Cooperative"
     primary_button        = "Who we are"
     primary_button_url    = "about"

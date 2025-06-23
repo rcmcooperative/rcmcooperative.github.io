@@ -1,6 +1,7 @@
 .site-hero{
   position: relative;
-  height: 100vh;
+  // height: 100vh;
+  min-height: 500px;
   background-size: cover;
   background-position: center center;
   display: flex;
@@ -8,10 +9,10 @@
   justify-content: center;
   @include desktop{
     height: auto;
-    padding: 200px 0;
+    padding: 100px 0;
   }
   @include mobile{
-    padding: 150px 0;
+    padding: 50px 0;
   }
   &-content{
     h1{

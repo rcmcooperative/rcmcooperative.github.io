@@ -2,7 +2,7 @@
 body {
   font-family: "Josefin Sans", sans-serif;
   font-size: 16px;
-  color: #d85a2c; }
+  color: #343a40; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif;
@@ -11,10 +11,10 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   font-size: 16px;
-  color: #d85a2c; }
+  color: #343a40; }
 
 h1 {
-  font-size: 60px; }
+  font-size: 20px; }
 
 h2 {
   font-size: 50px; }
@@ -35,7 +35,7 @@ h6 {
 .btn {
   font-family: "Montserrat", sans-serif;
   border: none;
-  color: #fff !important;
+  color: #f3f2ee !important;
   padding: 20px 45px;
   border-radius: 0; }
   .btn:focus {
@@ -76,19 +76,19 @@ h6 {
   border-radius: 40px; }
 
 .btn-primary {
-  background: #086e88;
-  color: #fff; }
+  background: #071c07;
+  color: #f3f2ee; }
   .btn-primary:hover {
-    background: #4c7a83; }
+    background: #dedbd0; }
 
 .btn-secondary {
-  background: #8e4b53;
-  color: #fff; }
+  background: #d99c8d;
+  color: #f3f2ee; }
   .btn-secondary:hover {
-    background: #4c7a83; }
+    background: #dedbd0; }
 
 body {
-  background: #6098a2; }
+  background: #f3f2ee; }
 
 .section-title {
   margin-bottom: 70px; }
@@ -113,7 +113,7 @@ body {
   margin-bottom: 30px;
   padding: 0 0 10px 0;
   border-width: 0 0 1px 0;
-  border-color: #6098a2;
+  border-color: #f3f2ee;
   font-weight: 300;
   letter-spacing: 1px;
   -webkit-appearance: none;
@@ -121,7 +121,7 @@ body {
   .form-control:focus {
     box-shadow: none;
     background: transparent;
-    border-color: #d85a2c; }
+    border-color: #343a40; }
 
 select.form-control {
   height: 42px !important;
@@ -146,7 +146,7 @@ textarea.form-control {
 
 .site-navigation {
   padding: 20px 0;
-  background: #fff;
+  background: #f3f2ee;
   position: fixed;
   top: 0;
   width: 100%;
@@ -154,7 +154,7 @@ textarea.form-control {
   transition: all 0.3s cubic-bezier(0.55, 0.085, 0.68, 0.53); }
   @media (max-width: 991px) {
     .site-navigation {
-      background: #fff;
+      background: #f3f2ee;
       margin: 10px;
       border-radius: 5px;
       top: 0;
@@ -186,7 +186,7 @@ textarea.form-control {
       height: 2px;
       width: 25px;
       transition: all 0.2s;
-      background: #086e88;
+      background: #071c07;
       display: block; }
       .site-navigation .navbar-toggler .icon-bar:not(:last-child) {
         margin-bottom: 5px; }
@@ -214,7 +214,7 @@ textarea.form-control {
         padding: 15px; } }
 .site-hero {
   position: relative;
-  height: 100vh;
+  min-height: 500px;
   background-size: cover;
   background-position: center center;
   display: flex;
@@ -223,10 +223,10 @@ textarea.form-control {
   @media (max-width: 991px) {
     .site-hero {
       height: auto;
-      padding: 200px 0; } }
+      padding: 100px 0; } }
   @media (max-width: 575px) {
     .site-hero {
-      padding: 150px 0; } }
+      padding: 50px 0; } }
   .site-hero-content h1 {
     margin-bottom: 75px; }
     @media (max-width: 1200px) {
@@ -265,8 +265,8 @@ textarea.form-control {
 
 .site-counter {
   padding: 85px 0;
-  color: #fff;
-  background: #8e4b53; }
+  color: #f3f2ee;
+  background: #d99c8d; }
   .site-counter .section-title {
     margin-bottom: 40px; }
   @media (max-width: 575px) {
@@ -280,7 +280,7 @@ textarea.form-control {
     font-size: 20px;
     font-weight: 300; }
   .site-counter-item-number {
-    color: #fff;
+    color: #f3f2ee;
     font-size: 60px;
     margin-bottom: 0;
     font-weight: 700; }
@@ -307,7 +307,7 @@ textarea.form-control {
           padding-bottom: 75px; } }
       .site-project-item-content span, .site-blog-post-content span {
         font-family: "Montserrat", sans-serif;
-        color: #086e88;
+        color: #071c07;
         display: block;
         margin-bottom: 10px; }
       .site-project-item-content h3, .site-blog-post-content h3 {
@@ -317,13 +317,13 @@ textarea.form-control {
           transition: 0.3s ease; }
           .site-project-item-content h3 a:hover, .site-blog-post-content h3 a:hover {
             text-decoration: none;
-            color: #086e88; }
+            color: #071c07; }
       .site-project-item-content a.read-more, .site-blog-post-content a.read-more {
         position: absolute;
         bottom: 40px;
         display: block;
         width: 100%;
-        color: #d85a2c;
+        color: #343a40;
         opacity: 0;
         transform: translateY(20px);
         transition: all 0.3s cubic-bezier(0.36, 0.03, 0, 0.91); }
@@ -345,19 +345,19 @@ textarea.form-control {
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
     font-weight: 500;
-    color: #086e88; }
+    color: #071c07; }
     .site-project-cta::before {
       content: '';
       position: absolute;
       height: 2px;
       width: 100%;
-      background: #086e88;
+      background: #071c07;
       bottom: -2px;
       transition: transform 0.3s cubic-bezier(0.36, 0.03, 0, 0.91);
       transform-origin: right;
       transform: scaleX(0); }
     .site-project-cta:hover {
-      color: #086e88;
+      color: #071c07;
       text-decoration: none; }
       .site-project-cta:hover::before {
         transform: scaleX(1);
@@ -371,7 +371,7 @@ textarea.form-control {
     .site-project-header-content h1 {
       font-size: 55px; }
       .site-project-header-content h1 span {
-        color: #086e88; }
+        color: #071c07; }
       @media (max-width: 767px) {
         .site-project-header-content h1 {
           font-size: 40px; } }
@@ -413,8 +413,8 @@ textarea.form-control {
         font-weight: 300;
         transition: all 0.3s ease; }
       .site-project-pagination .pagination .page-item.active .page-link, .site-blog-pagination .pagination .page-item.active .page-link {
-        background-color: #086e88;
-        color: #fff; }
+        background-color: #071c07;
+        color: #f3f2ee; }
       .site-project-pagination .pagination .page-item.disabled, .site-blog-pagination .pagination .page-item.disabled {
         opacity: 0.3;
         cursor: not-allowed; }
@@ -520,7 +520,7 @@ textarea.form-control {
     .site-blog-post-content h3 {
       font-size: 20px; } }
 .site-blog-post-content a.read-more {
-  color: #086e88;
+  color: #071c07;
   letter-spacing: 2px; }
   @media (max-width: 575px) {
     .site-blog-post-content a.read-more {
@@ -551,7 +551,7 @@ textarea.form-control {
   padding: 100px 0;
   overflow: hidden; }
   .site-testimonial-item {
-    background: #fff;
+    background: #f3f2ee;
     padding: 30px;
     margin-bottom: 30px;
     transition: all 0.3s ease-in; }
@@ -632,7 +632,7 @@ textarea.form-control {
   flex-wrap: wrap; }
 
 .site-about-company {
-  background: #086e88;
+  background: #071c07;
   width: 40%;
   padding: 70px 38px; }
   @media (max-width: 991px) {
@@ -640,7 +640,7 @@ textarea.form-control {
       width: 100%;
       margin-bottom: 20px; } }
   .site-about-company h1 {
-    color: #fff;
+    color: #f3f2ee;
     font-weight: 400;
     font-size: 25px;
     line-height: 60px;
@@ -722,7 +722,7 @@ textarea.form-control {
           transform: translate(-50%, -50%); } }
     .site-team-member-content h3 {
       font-size: 20px;
-      color: #086e88;
+      color: #071c07;
       margin-bottom: 10px;
       font-weight: 500; }
     .site-team-member-content p {
@@ -752,7 +752,7 @@ textarea.form-control {
       .site-contact-title {
         font-size: 40px; } }
     .site-contact-title span {
-      color: #086e88; }
+      color: #071c07; }
   .site-contact-form {
     margin-top: 10px; }
     .site-contact-form h4 {
@@ -783,7 +783,7 @@ textarea.form-control {
       .contact-form-generator a {
         margin-bottom: 70px; } }
 .site-footer {
-  background: #8e4b53;
+  background: #d99c8d;
   padding: 100px 0; }
   .site-footer-logo {
     margin-bottom: 50px; }
@@ -797,23 +797,23 @@ textarea.form-control {
     .site-footer-widget {
       text-align: center; } }
   .site-footer-widget-title {
-    color: #fff;
+    color: #f3f2ee;
     margin-bottom: 30px; }
     @media (max-width: 991px) {
       .site-footer-widget-title {
         margin-bottom: 20px; } }
   .site-footer-widget-description {
-    color: #fff;
+    color: #f3f2ee;
     line-height: 30px; }
     .site-footer-widget-description a {
-      color: #fff; }
+      color: #f3f2ee; }
   .site-footer-widget-links {
     margin: 0;
     padding: 0; }
     .site-footer-widget-links li {
       list-style: none; }
       .site-footer-widget-links li a {
-        color: #fff;
+        color: #f3f2ee;
         transition: all 0.3s cubic-bezier(0.36, 0.03, 0, 0.91);
         display: block; }
       .site-footer-widget-links li:not(:last-child) a {
@@ -825,11 +825,11 @@ textarea.form-control {
   .site-footer-widget-top img {
     margin-bottom: 20px; }
   .site-footer-widget-top p {
-    color: #fff; }
+    color: #f3f2ee; }
   .site-footer-widget-top:hover {
     text-decoration: none; }
   .site-footer-copyright p {
-    color: #fff;
+    color: #f3f2ee;
     margin: 50px auto 0;
     text-align: center; }
   .site-footer-copyright a {

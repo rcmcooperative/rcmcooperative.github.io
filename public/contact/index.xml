@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Contact on RCM Cooperative | Research Community Management Hub</title>
-    <link>//localhost:1313/contact/</link>
+    <link>http://localhost:1313/contact/</link>
     <description>Recent content in Contact on RCM Cooperative | Research Community Management Hub</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="//localhost:1313/contact/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/contact/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
