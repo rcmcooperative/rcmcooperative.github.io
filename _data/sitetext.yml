@@ -28,7 +28,7 @@ en: &DEFAULT_EN
         desc: "We support continuous development of people with research community management responsibilities in cohorts and one-to-one."
         icon: far fa-handshake
       - title: "Strategy"
-        desc: "We conduct strategic research on your community to devise evidence-based strategy aligned with your origanisational prioroties."
+        desc: "We conduct strategic research on your community to devise evidence-based strategy aligned with your organisational priorities."
         icon: fas fa-compass
 
   portfolio:
