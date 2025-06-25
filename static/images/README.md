@@ -1,1 +1,0 @@
-Logo is editable by RCM-Cooperative team in Canva: https://www.canva.com/design/DAGdfgu2rA0/CHpqexK3_3idocPh2sOJBA/view?utm_content=DAGdfgu2rA0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hb87ede5335

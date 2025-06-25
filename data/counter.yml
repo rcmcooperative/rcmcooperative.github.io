@@ -1,8 +1,0 @@
-enable : true
-heading : "Collaboration counts - literally!"
-counter_item: 
-  - title: "Collaborators"
-    number: "20"
-
-  - title: "Community Projects"
-    number: "50"

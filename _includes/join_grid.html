@@ -1,0 +1,59 @@
+{% if site.locale and site.locale != "" and site.locale != nil %}
+<section class="bg-light page-section" id="{{ site.data.sitetext[site.locale].join.section | default: "join" }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].join.title | markdownify | default: "join" }}</h2>
+        <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].join.text | markdownify }}</h3>
+      </div>
+    </div>
+    <div class="row">
+  {% for project in site.join_options %} 
+      <div class="col-md-4 col-sm-6 join-item">
+        <a class="join-link" data-toggle="modal" href="#{{ project.modalID }}">
+          <div class="join-hover">
+            <div class="join-hover-content">
+              <i class="{{ site.data.style.join-icon | default: "fas fa-plus fa-3x" }}"></i>
+            </div>
+          </div>
+          <img class="img-fluid" src="{{ project.caption.thumbnail }}" alt="">
+        </a>
+        <div class="join-caption">
+          <h4>{{ project.caption.title }}</h4>
+          <p class="text-muted">{{ project.caption.subtitle }}</p>
+        </div>
+      </div>
+  {% endfor %}
+    </div>
+  </div>
+</section>
+{% else %}
+<section class="bg-light page-section" id="{{ site.data.sitetext.join.section | default: "join" }}"> {# ADDED id="..." HERE #}
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext.join.title | markdownify | default: "join" }}</h2>
+        <h3 class="section-subheading text-muted">{{ site.data.sitetext.join.text | markdownify }}</h3>
+      </div>
+    </div>
+    <div class="row">
+  {% for project in site.join_options %}
+      <div class="col-md-4 col-sm-6 join-item">
+        <a class="join-link" data-toggle="modal" href="#{{ project.modalID }}">
+          <div class="join-hover">
+            <div class="join-hover-content">
+              <i class="{{ site.data.style.join-icon | default: "fas fa-plus fa-3x" }}"></i>
+            </div>
+          </div>
+          <img class="img-fluid" src="{{ project.caption.thumbnail }}" alt="">
+        </a>
+        <div class="join-caption">
+          <h4>{{ project.caption.title }}</h4>
+          <p class="text-muted">{{ project.caption.subtitle }}</p>
+        </div>
+      </div>
+  {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
