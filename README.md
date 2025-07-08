@@ -53,13 +53,21 @@ The below tree shows the layout of this repo and what the main files/directories
 If a directory is not described or expended, you probably won't need to edit it when making changes to the website :) 
 
 ├── 404.html
+
 ├── CODE_OF_CONDUCT.md
+
 ├── CONTRIBUTING.md
+
 ├── Gemfile
+
 ├── Gemfile.lock
+
 ├── LICENSE.md
+
 ├── README.md
+
 ├── _config.yml         **<-- contains basic site description and the path to the logo**
+
 ├── _data
 │   ├── navigation.yml  **<-- defines the items on the top nav bar**
 │   ├── sitetext.yml    **<-- provides the header text (and icons) or each section on the home page**
