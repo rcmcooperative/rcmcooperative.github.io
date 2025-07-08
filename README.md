@@ -52,27 +52,21 @@ This site uses the [Agency jekyll theme](https://github.com/raviriley/agency-jek
 The below tree shows the layout of this repo and what the main files/directories contain. 
 If a directory is not described or expended, you probably won't need to edit it when making changes to the website :) 
 
+```
+
 ├── 404.html
-
 ├── CODE_OF_CONDUCT.md
-
 ├── CONTRIBUTING.md
-
 ├── Gemfile
-
 ├── Gemfile.lock
-
 ├── LICENSE.md
-
 ├── README.md
-
-├── _config.yml         **<-- contains basic site description and the path to the logo**
-
+├── _config.yml         #<-- contains basic site description and the path to the logo
 ├── _data
-│   ├── navigation.yml  **<-- defines the items on the top nav bar**
-│   ├── sitetext.yml    **<-- provides the header text (and icons) or each section on the home page**
+│   ├── navigation.yml  #<-- defines the items on the top nav bar
+│   ├── sitetext.yml    #<-- provides the header text (and icons) or each section on the home page
 │   └── style.yml
-├── _includes           **<-- contains the html layouts for each section**
+├── _includes           #<-- contains the html layouts for each section
 │   ├── about.html
 │   ├── clients.html
 │   ├── contact.html
@@ -86,22 +80,22 @@ If a directory is not described or expended, you probably won't need to edit it 
 │   ├── services.html
 │   ├── team_grid.html
 │   └── timeline.html
-├── _join_options       **<-- contains an .md file for each of the grid items in the "join" section**
+├── _join_options       #<-- contains an .md file for each of the grid items in the "join" section
 │   ├── leadership.md
 │   ├── member.md
 │   └── support.md
 ├── _layouts
 │   ├── default.html
-│   ├── home.html       **<-- defines which of the html layouts from _includes are used on the home page**
+│   ├── home.html       #<-- defines which of the html layouts from _includes are used on the home page
 │   └── page.html
-├── _portfolio          **<-- contains an .md file for each of the projects to be displayed (grid items) in the "portfolio" section**
+├── _portfolio          #<-- contains an .md file for each of the projects to be displayed (grid items) in the "portfolio" section
 │   ├── example.md   
 │   ├── project1.md
 │   └── project2.md
 ├── _sass
 │   ├── base
 │   ├── components
-│   └── layout          **<-- the css styling for the different sections**
+│   └── layout          #<-- the css styling for the different sections
 │       ├── _contact.scss
 │       ├── _footer.scss
 │       ├── _join.scss
@@ -110,15 +104,15 @@ If a directory is not described or expended, you probably won't need to edit it 
 │       ├── _services.scss
 │       ├── _team.scss
 │       └── _timeline.scss
-├── _site               **<-- ignore everything in here. It is generated automatically when you build the site**
-├── _team               **<-- a .md file for each team member**
+├── _site               #<-- ignore everything in here. It is generated automatically when you build the site
+├── _team               #<-- a .md file for each team member
 │   ├── cassandra-gouldvanpraag.md
 │   ├── emma-karoune.md
 │   └── malvika-sharan.md
 ├── assets
 │   ├── css
 │   ├── img
-│   │   ├── clients     **<- all logo images, inc RCM Coop logo used on the nav bar**
+│   │   ├── clients     #<-- all logo images, inc RCM Coop logo used on the nav bar
 │   │   │   ├── creative-market.jpg
 │   │   │   ├── designmodo.jpg
 │   │   │   ├── envato.jpg
@@ -127,17 +121,17 @@ If a directory is not described or expended, you probably won't need to edit it 
 │   │   │   ├── rcmcoop-peach.png
 │   │   │   ├── rcmcoop-peach.svg
 │   │   │   └── themeforest.jpg
-│   │   ├── contact.png **<-- the image behind the contact section**
+│   │   ├── contact.png #<-- the image behind the contact section
 │   │   ├── emoji-rcm-coop.gif
 │   │   ├── favicon-old.png
 │   │   ├── favicon.png
-│   │   ├── header.png  **<-- the background image at the top of the home page**
-│   │   ├── join        **<-- images used in the "join" grid items**
+│   │   ├── header.png  #<-- the background image at the top of the home page
+│   │   ├── join        #<-- images used in the "join" grid items
 │   │   │   ├── aaron-santelices-z03mWBdAq5I-unsplash.jpg
 │   │   │   ├── johannes-plenio-voQ97kezCx0-unsplash.jpg
 │   │   │   └── steven-kamenar-MMJx78V7xS8-unsplash.jpg
-│   │   ├── logo-RCM-coop-dev.pptx  **<-- a .pptx file where you can play with logo images**
-│   │   ├── logo-black-square.png   **<-- a bunch of logo variations**
+│   │   ├── logo-RCM-coop-dev.pptx  #<-- a .pptx file where you can play with logo images
+│   │   ├── logo-black-square.png   #<-- a bunch of logo variations
 │   │   ├── logo-footer-grey.png
 │   │   ├── logo-footer-old.png
 │   │   ├── logo-footer.png
@@ -151,7 +145,7 @@ If a directory is not described or expended, you probably won't need to edit it 
 │   │   │   ├── 04-thumbnail.jpg
 │   │   │   ├── 05-thumbnail.jpg
 │   │   │   └── 06-thumbnail.jpg
-│   │   ├── team     **<-- team member images**
+│   │   ├── team     #<-- team member images
 │   │   │   ├── 500x500.jpg
 │   │   │   ├── cassandra-gouldvanpraag.jpg
 │   │   │   ├── emma-karoune.jpg
@@ -160,9 +154,11 @@ If a directory is not described or expended, you probably won't need to edit it 
 │   ├── js
 │   ├── tmp-old-webfonts
 │   └── webfonts
-├── index.md      **<-- defines the layout to be used in the home page (currently calls ~/_layouts/home.html**)
+├── index.md      #<-- defines the layout to be used in the home page (currently calls ~/_layouts/home.html)
 ├── jekyll-agency.gemspec
-├── legal.md      **<-- privacy policy text**
+├── legal.md      #<-- privacy policy text
+
+```
 
 
 ### Adding a new member
