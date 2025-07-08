@@ -1,4 +1,22 @@
 {
   "projectName": "rcmcooperative.github.io",
-  "projectOwner": "RCM Cooperative"
+  "projectOwner": "rcmcooperative",
+  "files": [
+    "README.md"
+  ],
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributorsPerLine": 7,
+  "contributors": [
+    {
+      "login": "malvikasharan",
+      "name": "Malvika Sharan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5370471?v=4",
+      "profile": "http://malvikasharan.github.io/",
+      "contributions": [
+        "content",
+        "doc"
+      ]
+    }
+  ]
 }
