@@ -26,6 +26,27 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "cassgvp",
+      "name": "Cassandra Gould van Praag",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43407869?v=4",
+      "profile": "https://github.com/cassgvp",
+      "contributions": [
+        "content",
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "EKaroune",
+      "name": "Emma Karoune",
+      "avatar_url": "https://avatars.githubusercontent.com/u/58147174?v=4",
+      "profile": "https://www.turing.ac.uk/people/research-associates/emma-karoune",
+      "contributions": [
+        "content",
+        "doc"
+      ]
     }
   ]
 }
