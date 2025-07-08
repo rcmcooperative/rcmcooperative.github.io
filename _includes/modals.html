@@ -65,3 +65,48 @@
   </div>
 </div>
 {% endfor %}
+
+{% for item in site.team %} 
+<div class="team-modal modal fade" id="{{ item.modalID }}" tabindex="-1" role="dialog" aria-hidden="true"> {# Use item.modalID #}
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="modal-body">
+              <h2 class="text-uppercase">{{ item.title }}</h2>
+              <p class="item-intro text-muted">{{ item.subtitle }}</p>
+              <img class="img-fluid d-block mx-auto" src="{{ item.image | relative_url }}" alt="{{ item.alt }}">
+              <p>{{ item.content | markdownify }}</p>
+              {% if item.social %}
+                <ul class="list-inline social-buttons text-center mb-4"> 
+                  {% for social_link in item.social %}
+                  <li class="list-inline-item mx-2"> 
+                    <a href="{{ social_link.url }}" target="_blank" rel="noopener noreferrer">
+                      <i class="{{ social_link.icon }}"></i> 
+                    </a>
+                  </li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+              <ul class="list-inline">
+                {% if item.category %}<li><strong>Category:</strong> {{ item.category }}</li>{% endif %}
+                {% if item.link_url %}<li><strong>Link:</strong> <a href="{{ item.link_url }}" {% if item.link_url contains 'http' %}target="_blank" rel="noopener noreferrer"{% endif %}>{{ item.link_text | default: "Learn More" }}</a></li>{% endif %}
+              </ul>
+              <button class="btn btn-primary btn-xl text-uppercase" data-dismiss="modal" type="button">
+                <i class="fas fa-xmark me-1"></i>
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor %}
