@@ -1,155 +1,107 @@
-# Agency Jekyll Theme
-[![RubyGems Downloads](https://img.shields.io/gem/dt/jekyll-agency?label=gem%20downloads)](https://rubygems.org/gems/jekyll-agency)
-[![LICENSE](https://img.shields.io/badge/license-MIT-blue)](/LICENSE.txt)
-[![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip_me-green?logo=paypal)](https://www.paypal.me/raviriley)
-[![template button](https://img.shields.io/badge/Generate_theme_from_template-2ea44f)][generate]
-[![Featured on Jekyll-Themes.com](https://img.shields.io/badge/featured%20on-JekyllThemes-red.svg)](https://jekyll-themes.com/agency-jekyll-theme/)
+# Template for setting up RCM Cooperative partner repositories
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-## Preview - click for live demo
+## RCM Cooperatie website repository
 
-[![screenshot](/screenshot.PNG)][demo-page]
+This repository builds on the template created and maintained by *The Turing Way* team members and shared under CC-BY 4.0 for reuse: https://github.com/alan-turing-institute/reproducible-project-template.
 
-## Warning
 
-> :warning: **Notice for those using legacy Formspree contact forms:** :warning:
->
-> Email-based forms are being [phased out](https://help.formspree.io/hc/en-us/articles/360056076314) by Formspree. [#11](https://github.com/raviriley/agency-jekyll-theme/pull/11) updated this theme to use the [new Formspree structure](https://help.formspree.io/hc/en-us/articles/360017735154-How-to-prevent-spam). Click [here](https://help.formspree.io/hc/en-us/articles/360056076314) for instructions on updating your site's form.
+## Vision and Mission
+- **Vision:** A cooperative of community managers dedicated to creating equitable, resilient and collaborative research
+- **Mission:** To empower research communities through capacity building, growing a network of community leaders and ecosystem facilitation.
 
 ## About
 
-This is the [Agency Bootstrap theme](https://startbootstrap.com/themes/agency/), converted to a gem-based Jekyll theme with GitHub Pages support.
+<!-- Motivation and background in a nutshell. -->
 
-While this has been done before, [here](https://github.com/y7kim/agency-jekyll-theme), [here](https://github.com/SotiriosVrachas/jekyll-theme-startbootstrap-agency), and [here](https://github.com/laklau/agency-jekyll-theme/), these are outdated and have not been updated or maintained for years. I built this theme from the most recent Bootstrap source.
+## Roadmap & Milestones
 
-I also added a lot of new features that go beyond the original theme's capabilities:
+<!-- - **Goals:** Clear overview of overarching and short-term goals.
+- **Outcomes:** Description of expected results and deliverables. -->
 
-- GitHub Pages support
-- [template repo][template] to get up and running in minutes
-- contact form functionality powered by [Formspree.io](https://formspree.io)
-- multiple language support (currently English, Spanish, & German)
-- custom pages
-- 404 page
-- legal/Privacy Policy page
-- Google Analytics support
-- Markdown support
-- custom images
-- logo support (instead of just title text)
-- automatically updating copyright years
-- custom navigation bar, even without the header image(s)
-- customizable footer
-- custom accent color and dark/light colors
-- horizontal scrolling support for client section
-<!--
-- custom colors with automatic gradient generation (coming soon)
-- site title logo text font customization (coming soon)
-- horizontal scrolling support for portfolio section (coming soon)
-- about section (different from the timeline) -->
+## The Team
 
-The Jekyll structure of this theme includes:
-
-- `_portfolio` files - what generate the portfolio grid. YAML front matter handles all the details
-- the `page` layout allows custom pages, as seen in the legal and 404 pages
-- `sitetext.yml` enables complete customization of all site text
-- `navigation.yml` enables fully customizable navigation
-- `style.yml` enables fully customizable colors, background images, and other style-related things
-
-**If you enjoy this theme, please consider [supporting me](https://www.paypal.me/raviriley) to continue developing and maintaining it.**
-
-<div align="center">
-
-[![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://www.paypal.me/raviriley)
-
-</div>
-
-## Installation
-
-There are three ways to install this theme:
-
-1. As a gem-based theme
-2. Use the [starter template][template] (best for GitHub Pages)
-3. As a remote theme
-
-#### 1. Gem-based Theme Installation
-
-Replace the contents of your `_config.yml` file with the sample [\_config.yml](https://raw.githubusercontent.com/raviriley/agency-jekyll-theme/master/_config.yml).
-
-Install the gem with:
-
-```sh
-$ bundle add jekyll-agency
-```
-
-Or manually.
-
-1. Add this line to your Jekyll site's `Gemfile`:
-   ```ruby
-   gem "jekyll-agency"
-   ```
-2. Then execute:
-   ```sh
-   $ bundle install
-   ```
-
-#### 2. Using the [Starter Template][template]
-
-This is the fastest and easiest way to get up and running on GitHub Pages.
-
-Simply generate your own repository by clicking the button below. Then replace the sample content with your own and configure for your needs.
-
-<div align="center">
-
-[![Use this template](https://img.shields.io/badge/Generate-Use_this_template-2ea44f?style=for-the-badge)][generate]
-
-</div>
-    
-#### 3. Remote Theme Installation
-
-Replace your `_config.yml` file with the starter [\_config.yml](https://raw.githubusercontent.com/raviriley/agency-jekyll-theme-starter/master/_config.yml).
-
-Replace your `Gemfile` with the starter [Gemfile](https://raw.githubusercontent.com/raviriley/agency-jekyll-theme-starter/master/Gemfile).
-
-Then install gems.
-
-```sh
-$ bundle install
-```
-
-<!--
-## Documentation and Usage
-
-**TODO:** Write usage instructions here. Describe available layouts, includes, or assets.
-
-navheader is used only for the home page. nav is used everywhere else.
-
-Layouts:
-
-Includes:
-
--->
+<!-- - **Members:** List of team members and their roles in the project.
+- **Roles & Responsibilities:** [Team Directory](link-to-directory) outlines roles, responsibilities and their ways of working. -->
 
 ## Contributing
 
-This project is intended to be a welcoming space for collaboration. If you have an idea, suggestion, feature request, etc., feel free to open an issue or pull request.
+<!-- - **Guidelines:** [Contribution Guidelines](link-to-guidelines) for contributors.
+- **Code of Conduct:** [Code of Conduct](link-to-coc) ensures a respectful project environment.
+- **Resource Plans:** Details on available resources and recommended practices for the project team. -->
 
-For bug reports, follow the provided template.
+## Licensing
 
-#### Improvements - Up for Grabs
+Documentation is licensed under the CC-BY-4.0 License. 
+Code is shared under an MIT license. 
+See the LICENSE.md file for details.
 
-- [x] multiple language support thanks to [@rbenitezpagan](https://github.com/rbenitezpagan)
-  - [x] Spanish thanks to [@rbenitezpagan](https://github.com/rbenitezpagan)
-  - [x] German thanks to [@bkfirmen](https://github.com/bkfirmen)
-  - [ ] Chinese
-  - [ ] Arabic
-  - [ ] etc
-- [ ] customizable background coloring for each section
+## Citing & Acknowledgement
 
-## Development
+<!-- - **Citation Instructions:** How to cite the project.
+- **Acknowledgment:** Recognising contributions by different members. -->
 
-To set up your environment to develop this theme, clone this repo or your fork.
+## Contact
+
+- **Reach Out:** cassandra.gouldvanpraag@rcmcooperative.com
+
+
+
+### Checklist for setting an online repository 
+
+- [ ] Add a README file
+- [x] Add a [CONTRIBUTING](CONTRIBUTING.md) file
+- [x] Add a [LICENSE](LICENSE.md)
+- [x] Add a [Code of Conduct](CODE_OF_CONDUCT.md)
+- [ ] Install [all-contributors](https://allcontributors.org/) bot
+- [ ] .gitignore file (choose from a template)
+- [ ] Issue templates
+    - [ ] Optionally Install [Welcome/behavior](https://github.com/behaviorbot/welcome) bot (see The Turing Way [config](https://github.com/alan-turing-institute/the-turing-way/blob/main/.github/config.yml))
+- [ ] Connect repo with Zenodo
+- [ ] Add cff file for citation
+- [ ] Add badges
+
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="http://malvikasharan.github.io/"><img src="https://avatars.githubusercontent.com/u/5370471?v=4?s=100" width="100px;" alt="Malvika Sharan"/><br /><sub><b>Malvika Sharan</b></sub></a><br /><a href="#ideas-malvikasharan" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-malvikasharan" title="Content">🖋</a> <a href="https://github.com/the-turing-way/reproducible-project-template/commits?author=malvikasharan" title="Documentation">📖</a></td>
+      <td align="center"><a href="http://malvikasharan.github.io/"><img src="https://avatars.githubusercontent.com/u/5370471?v=4?s=100" width="100px;" alt="Malvika Sharan"/><br /><sub><b>Malvika Sharan</b></sub></a><br /><a href="#ideas-malvikasharan" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-malvikasharan" title="Content">🖋</a></td>
+      <td align="center"><a href="https://github.com/EKaroune"><img src="https://avatars.githubusercontent.com/u/58147174?v=4?s=100" width="100px;" alt="Emma Karoune"/><br /><sub><b>Emma Karoune</b></sub></a><br /><a href="#ideas-EKaroune" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/alan-turing-institute/reproducible-project-template/commits?author=EKaroune" title="Documentation">📖</a></td>
+      <td align="center"><a href="http://www.aleesteele.com"><img src="https://avatars.githubusercontent.com/u/18509789?v=4?s=100" width="100px;" alt="Anne Lee Steele"/><br /><sub><b>Anne Lee Steele</b></sub></a><br /><a href="#ideas-aleesteele" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/alan-turing-institute/reproducible-project-template/commits?author=aleesteele" title="Documentation">📖</a></td>
+      <td align="center"><a href="https://github.com/vhellon"><img src="https://avatars.githubusercontent.com/u/93144591?v=4?s=100" width="100px;" alt="Vicky Hellon"/><br /><sub><b>Vicky Hellon</b></sub></a><br /><a href="#ideas-vhellon" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/alan-turing-institute/reproducible-project-template/commits?author=vhellon" title="Documentation">📖</a></td>
+      <td align="center"><a href="http://jending.com"><img src="https://avatars.githubusercontent.com/u/5104098?v=4?s=100" width="100px;" alt="Jennifer Ding"/><br /><sub><b>Jennifer Ding</b></sub></a><br /><a href="#content-dingaaling" title="Content">🖋</a> <a href="https://github.com/alan-turing-institute/reproducible-project-template/commits?author=dingaaling" title="Documentation">📖</a> <a href="#ideas-dingaaling" title="Ideas, Planning, & Feedback">🤔</a></td>
+      <td align="center"><a href="http://lappland.io"><img src="https://avatars.githubusercontent.com/u/51458?v=4?s=100" width="100px;" alt="Hilmar Lapp"/><br /><sub><b>Hilmar Lapp</b></sub></a><br /><a href="https://github.com/alan-turing-institute/reproducible-project-template/issues?q=author%3Ahlapp" title="Bug reports">🐛</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+## Jekyll theme
+This site uses the [Agency jekyll theme](https://github.com/raviriley/agency-jekyll-theme), shared under an [MIT License](https://opensource.org/licenses/MIT).
+
+### Developing the website
+
+To set up your environment to develop this website locally theme, clone this repo or your fork.
 
 ```sh
-$ git clone https://github.com/raviriley/agency-jekyll-theme.git
-$ cd agency-jekyll-theme
+$ git clone https://github.com/rcmcooperative/rcmcooperative.github.io.git
+$ cd rcmcooperative.github.io
 ```
 
 Then run:
@@ -166,23 +118,7 @@ $ bundle exec jekyll serve --trace
 
 Then open your browser at:
 
-- http://localhost:4000
+- http://127.0.0.1:4000/
 
 Add pages, documents, data, etc. like normal to test the theme's contents. As you make modifications, your site will regenerate and you should see the changes in the browser after a refresh.
 
-## License
-
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-
-<!--
-
-## Example Implementations
-
-- [CV Enterprises](https://cventerprises.org)
-- [Mortazavi Lab at UC Irvine](https://mortazavilab.github.io/)
-
--->
-
-[demo-page]: https://raviriley.github.io/agency-jekyll-theme-starter/
-[template]: https://github.com/raviriley/agency-jekyll-theme-starter
-[generate]: https://github.com/raviriley/agency-jekyll-theme-starter/generate
