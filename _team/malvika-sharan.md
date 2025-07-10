@@ -1,6 +1,7 @@
 ---
 caption: #Malvika-Sharan
   title: Malvika Sharan
+  pronouns: she/her
   subtitle: Co-Founder
   thumbnail: assets/img/team/malvika-sharan.jpg
 modalID: teamMalvikasharan
@@ -14,6 +15,7 @@ social:
   
 #what displays when the item is clicked:
 title: Malvika Sharan
+pronouns: she/her
 subtitle: Co-Founder / Executive Director
 image: assets/img/team/malvika-sharan.jpg
 alt: Malvika Sharan

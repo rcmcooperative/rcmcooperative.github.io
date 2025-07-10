@@ -1,6 +1,7 @@
 ---
 caption: #Emma-Karoune
   title: Emma Karoune
+  pronouns: she/her
   subtitle: Co-Founder
   thumbnail: assets/img/team/emma-karoune.jpg
 modalID: teamEmmakaroune
@@ -14,6 +15,7 @@ social:
   
 #what displays when the item is clicked:
 title: Emma Karoune
+pronouns: she/her
 subtitle: Co-Founder
 image: assets/img/team/emma-karoune.jpg
 alt: Emma Karoune

@@ -1,6 +1,7 @@
 ---
 caption: #Sara-Villa
   title: Sara Villa
+  pronouns: she/her
   subtitle: Core team 
   thumbnail: assets/img/team/sara-villa.jpg
 modalID: teamSaraVilla
@@ -14,6 +15,7 @@ social:
   
 #what displays when the item is clicked:
 title: Sara Villa
+pronouns: she/her
 subtitle: Core team
 image: assets/img/team/sara-villa.jpg
 alt: Sara Villa
