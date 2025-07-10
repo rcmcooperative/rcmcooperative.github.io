@@ -1,14 +1,13 @@
-
 ---
 caption: #Sara-Villa
   title: Sara Villa
   subtitle: Core team 
-  thumbnail: assets/img/team/Sara-Villa.jpg
+  thumbnail: assets/img/team/sara-villa.jpg
 modalID: teamSaraVilla
 social:
     - url: https://www.linkedin.com/in/s-villa/
       icon: fab fa-linkedin-in
-    - url: https://orcid.org/my-orcid?orcid=0000-0001-9502-0888
+    - url: https://orcid.org/0000-0001-9502-0888
       icon: fab fa-orcid
     - url: https://github.com/SaraVilla
       icon: fab fa-github
@@ -16,12 +15,12 @@ social:
 #what displays when the item is clicked:
 title: Sara Villa
 subtitle: Core team
-image: assets/img/team/Sara-Villa.jpg
+image: assets/img/team/sara-villa.jpg
 alt: Sara Villa
 social:
     - url: https://www.linkedin.com/in/s-villa/
       icon: fab fa-linkedin-in
-    - url: https://orcid.org/my-orcid?orcid=0000-0001-9502-0888
+    - url: https://orcid.org/0000-0001-9502-0888
       icon: fab fa-orcid
     - url: https://github.com/SaraVilla
       icon: fab fa-github
