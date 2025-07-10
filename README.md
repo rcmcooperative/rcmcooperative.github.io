@@ -162,6 +162,9 @@ If a directory is not described or expended, you probably won't need to edit it 
 
 
 ### Adding a new member
+
+This can be done by the new member as a [pull request (use the process described here for contributing to The Turing Way)](https://github.com/the-turing-way/the-turing-way/blob/main/CONTRIBUTING.md#making-a-change-with-a-pull-request), or an existing member/admin via a commit to main.
+
 1. Add a photo of the new member to ~/assets/img/team. The photo should be 500 x 500 px
 2. Copy an existing member .md file from ~/_team. Rename it with the new members name, seperating first and last name with a hyphen (no spaces)
 3. Edit the .md file front matter to refer to the new member. Note the value `modalID` must be unique. We suggest you use `team[Theirnamewithnospaces]`
