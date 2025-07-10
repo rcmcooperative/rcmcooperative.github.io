@@ -80,6 +80,9 @@
           <div class="col-lg-8 mx-auto">
             <div class="modal-body">
               <h2 class="text-uppercase">{{ item.title }}</h2>
+              {% if item.pronouns %} 
+                <p class="item-intro text-muted small">({{ item.pronouns }})</p>
+              {% endif %}
               <p class="item-intro text-muted">{{ item.subtitle }}</p>
               <img class="img-fluid d-block mx-auto" src="{{ item.image | relative_url }}" alt="{{ item.alt }}">
               <p>{{ item.content | markdownify }}</p>

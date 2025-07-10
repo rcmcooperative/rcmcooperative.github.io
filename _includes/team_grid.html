@@ -20,6 +20,9 @@
         </a>
         <div class="team-caption">
           <h4>{{ project.caption.title }}</h4>
+          {% if project.caption.pronouns %} 
+            <p class="text-muted small">({{ project.caption.pronouns }})</p> 
+          {% endif %}
           <p class="text-muted">{{ project.caption.subtitle }}</p>
           {% if project.social %}
             <ul class="list-inline social-buttons">
@@ -60,6 +63,9 @@
         </a>
         <div class="team-caption">
           <h4>{{ project.caption.title }}</h4>
+          {% if project.caption.pronouns %} 
+            <p class="text-muted small">({{ project.caption.pronouns }})</p> 
+          {% endif %}
           <p class="text-muted">{{ project.caption.subtitle }}</p>
           {% if project.social %}
             <ul class="list-inline social-buttons">
