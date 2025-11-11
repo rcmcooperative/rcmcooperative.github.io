@@ -18,7 +18,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 
 title      : RCM Cooperative
 email      : cassandra.gouldvanpraag@rcmcooperative.com #this is also the email contact forms will go to
-description: "Site description"
+description: "RCM Cooperative works with and for communities to develop and refine their capacity for equitable, resiliant and collaborative research."
 author     : RCM Cooperative
 logo:     #optional, defaults to site title
   path: assets\img\clients\rcmcoop-peach.png
