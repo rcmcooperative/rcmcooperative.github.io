@@ -18,7 +18,7 @@ en: &DEFAULT_EN
 
   services:
     title: "Services"
-    text: "We work with and for communities to develop and refine their capacity for equitable, resiliant and collaborative research. <br><br><a href=\"#contact\">Contact Us</a> to discuss what your community needs!"
+    text: "We work with and for communities to develop and refine their capacity for equitable, resilient and collaborative research. <br><br><a href=\"#contact\">Contact Us</a> to discuss what your community needs!"
     section: services
     list:
       - title: "Training"
