@@ -1,4 +1,4 @@
-# RCM Cooperatie website repository
+# RCM Cooperative website repository
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/github/all-contributors/rcmcooperative/rcmcooperative.github.io?color=ee8449&style=flat-square)](#contributors)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
@@ -232,7 +232,7 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 - [x] Add a [LICENSE](LICENSE.md)
 - [x] Add a [Code of Conduct](CODE_OF_CONDUCT.md)
 - [x] Install [all-contributors](https://allcontributors.org/) bot
-- [ ] .gitignore file (choose from a template)
+- [x] .gitignore file (choose from a template)
 - [x] Issue templates
     - [ ] Optionally Install [Welcome/behavior](https://github.com/behaviorbot/welcome) bot (see The Turing Way [config](https://github.com/alan-turing-institute/the-turing-way/blob/main/.github/config.yml))
 - [ ] Connect repo with Zenodo

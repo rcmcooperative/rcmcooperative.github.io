@@ -18,7 +18,7 @@ en: &DEFAULT_EN
 
   services:
     title: "Services"
-    text: "We work with and for communities to develop and refine their capacity for equitable, resiliant and collaborative research. <br><br><a href=\"#contact\">Contact Us</a> to discuss what your community needs!"
+    text: "We work with and for communities to develop and refine their capacity for equitable, resilient and collaborative research. <br><br><a href=\"#contact\">Contact Us</a> to discuss what your community needs!"
     section: services
     list:
       - title: "Training"
@@ -33,13 +33,13 @@ en: &DEFAULT_EN
 
   portfolio:
     title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    text: "Learn about the impact of our work"
     section: portfolio
     closebutton: "Close Project"
 
   join:
     title: "Join our cooperative"
-    text: "Ways to get involved with this work."
+    text: "Ways to get involved with this work"
     section: join
     closebutton: "Close Project"
 
@@ -109,18 +109,15 @@ en: &DEFAULT_EN
     max-height: 100px
     horizontal-scrolling: "" #"yes/no"
     list:
-      - title: "envato"
+      - title: "Administrative Data Research UK"
+        url: https://github.com/rcmcooperative/partner-ADR-UK/
+        logo: assets/img/clients/ADRUK_-_logo_rgb_rgb_white.png
+      - title: "Software Sustainability Institute"
         url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
+        logo: assets/img/clients/SSI_PRIMARY-LOGO-WHITE.png
+      - title: "Tanenbaum Open Science Institute"
+        url: https://github.com/rcmcooperative/partner-TOSI
+        logo: assets/img/clients/neuro_logo_horiz_rgb_bil.png.jpg
 
   team:
     title: "OUR AMAZING TEAM"

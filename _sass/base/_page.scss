@@ -69,3 +69,76 @@ img::selection {
 img::-moz-selection {
   background: transparent;
 }
+
+/* Force all Modal content to be left-aligned */
+.modal-body {
+    text-align: left !important;
+
+    p, ul, ol {
+        text-align: left !important;
+        text-justify: none !important;
+    }
+
+    ul, ol {
+        padding-left: 2rem; /* Keeps bullets/numbers from hitting the edge */
+    }
+}
+
+/* Global Alignment and Spacing for Modal Content (Portfolio & Team) */
+.portfolio-modal .modal-body, 
+.modal-body {
+  /* Default all modal content to left-aligned */
+  text-align: left !important;
+
+  /* Target all headings and text for left-alignment and consistent line density */
+  h1, h2, h3, h4, h5, h6, p, ul:not(.list-inline), ol {
+    text-align: left !important;
+    display: block;
+    width: 100%;
+    line-height: 1.5 !important;
+  }
+
+  /* Specific spacing for body paragraphs */
+  p {
+    text-justify: none !important;
+    margin-bottom: 20px;
+  }
+
+  /* Spacing and indentation for lists to match paragraph density */
+  ul:not(.list-inline), ol {
+    padding-left: 2.5rem !important; 
+    margin-bottom: 20px;
+
+    li {
+      text-align: left !important;
+      margin-bottom: 10px;
+      line-height: 1.5 !important;
+    }
+  }
+
+  /* RE-CENTERING: Highly specific selectors to force the Header items back to middle */
+  &.modal-body h2.text-uppercase,
+  &.modal-body .item-intro,
+  &.modal-body img,
+  &.modal-body .list-inline,
+  &.modal-body .btn {
+    text-align: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block;
+    max-width: fit-content;
+  }
+
+  /* Fix for social icon row layout */
+  .list-inline {
+    display: flex !important;
+    justify-content: center !important;
+    padding-left: 0 !important;
+    margin: 20px auto !important;
+    
+    li {
+      display: inline-block !important;
+      padding: 0 5px;
+    }
+  }
+}
