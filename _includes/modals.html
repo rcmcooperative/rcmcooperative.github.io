@@ -11,10 +11,13 @@
         <div class="row">
           <div class="col-lg-8 mx-auto">
             <div class="modal-body">
-              <h2 class="text-uppercase">{{ item.title }}</h2>
-              <p class="item-intro text-muted">{{ item.subtitle }}</p>
               <img class="img-fluid d-block mx-auto" src="{{ item.image | relative_url }}" alt="{{ item.alt }}">
+              {% unless item.hide_title == true %}
+                <h2 class="text-uppercase">{{ item.title }}</h2>
+              {% endunless %}
+              <p class="item-intro text-muted">{{ item.subtitle }}</p>
               <p>{{ item.content | markdownify }}</p>
+              <p class="item-intro text-muted">{{ item.subtitle }}</p>
               <ul class="list-inline">
                 {% if item.client %}<li><strong>Client:</strong> {{ item.client }}</li>{% endif %}
                 {% if item.category %}<li><strong>Category:</strong> {{ item.category }}</li>{% endif %}

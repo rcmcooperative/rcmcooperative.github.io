@@ -15,8 +15,8 @@ en: &DEFAULT_EN
       section: services
     - title: "Join"
       section: join
-    # - title: "Portfolio"
-    #   section: portfolio
+    - title: "Portfolio"
+      section: portfolio
     - title: "About"
       section: about
     # - title: "Timeline"
