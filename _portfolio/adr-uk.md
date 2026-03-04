@@ -50,16 +50,18 @@ Together we identified four essential pillars for the success of ADR UK's resear
 
 Following the workshops, one participant was successfully awarded funds to set up the [UK Data Linkage Community (UK DLC)](https://uk-data-linkage-community.github.io/). The community lead and participant in our project, [Mike Edwards](https://www.swansea.ac.uk/staff/michael.edwards/) had this to say about the impact of our work:
 
-*"Before this workshop, I was very unlikely to seek funding to establish a community. The course gave me the **frameworks to clearly formulate my vision** for the UK DLC, which was essential in presenting a successful proposal to funders, co-chairs and potential community members. Discussions with a diverse group of participants and the RCM Cooperative team helped me refine our goals and gave me the **confidence to communicate my work** across different audience levels. The ‘Empowered Groups’ participation framework really struck a chord, and has become the **core narrative for our community development**. It has also been really well received by the wider community and provides a lot of **mutual benefits across the ecosystem**."*
+*"Before this workshop, I was very unlikely to seek funding to establish a community. The course gave me the **frameworks to clearly formulate my vision** for the UK DLC, which was essential in presenting a successful proposal to funders, co-chairs and potential community members. Discussions with a diverse group of participants and the RCM Cooperative team helped me refine our goals and gave me the **confidence to communicate my work** across different audience levels. The ‘Empowered Groups’ participation framework really struck a chord, and has become the **core narrative for our community development**. It has also been really well received by the wider community and provides a lot of **mutual benefits across the ecosystem**."* (Mike Edwards, University of Swansea)
 
 Further communities are soon to be launched, lead by the leaders we supported in this project! ❤️
 
 ### What happened next
 
 ADR UK have worked hard to develop their internal organisational policies to meet their communities need for 'Brand Visibility and Legitimisation'. Some notable next steps planned by ADR UK include:
-- recognition of communities with a formal 'affiliate' status;
-- a communities logo;
-- listing on the ADR UK website. 
+- Recognition of communities with a formal 'affiliate' status;
+- A communities logo;
+- Listing on the ADR UK website;
+- Increased resourcing and strategic focus on supporting communities.
+
 This work is a strong demonstration of ADR UK's commitment to meet the needs voiced by their community leaders, building on the trust which is essential for successful community engagement.
 
 ### RCM Cooperative’s specialised service model
