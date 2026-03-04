@@ -16,7 +16,7 @@ social:
 #what displays when the item is clicked:
 title: Malvika Sharan
 pronouns: she/her
-subtitle: Co-Founder / Executive Director
+subtitle: Co-Founder
 image: assets/img/team/malvika-sharan.jpg
 alt: Malvika Sharan
 social:
@@ -28,10 +28,12 @@ social:
       icon: fab fa-github
 
 ---
-Malvika Sharan is a co-Director of [OLS (Open Life Science Ltd.)](https://we-are-ols.org), a not-for-profit dedicated to capacity-building and diversifying research leadership through open science. 
-In her previous role, Malvika established and led The Alan Turing Institute's first Research Community Management (RCM) team, working alongside Emma and Cass. 
-She led [The Turing Way](https://book.the-turing-way.org), scaling this community-driven data science initiative from a small group to a global community of thousands and transitioning to a community-governed model in 2025. 
-Malvika has advised initiatives like NASA Open Science, the Society of RSE, and Data Science Without Borders, holds [Software Sustainability Institute](https://www.software.ac.uk/programmes/fellowship-programme) fellowship, and was named a [Brilliant Women in AI Ethics (2024)](https://womeninaiethics.org/the-list/of-2024/g).
+Malvika is an open source/science practitioner, educator and leader with a background in life sciences and bioinformatics.
+Previously, she held research and leadership roles at The Alan Turing Institute and European Molecular Biology Laboratory, where she led and scaled data science and bioinformatics community initiatives, notably The Turing Way and EMBL’s Bio-IT.
+Malvika co-founded Open Life Science (OLS), an international training, mentoring and capacity builiding organisation, before co-founding RCM Cooperative to mobilise and connect Research Community Managers from across organisations.
+
+She has advised initiatives like NASA Open Science, the Society of RSE, Open Bioinformatics Foundation and Data Science Without Borders.
+Malvika is a Mozilla Open Leaders Fellow, Software Sustainability Institute Fellow, and was named among the 100 Brilliant Women in AI Ethics (2024) and INvolve Empower Top 100 Future Leaders (2025). A lifelong learner, Malvika is dedicated to improving open research, community building, collaboration, governance, and ethical practices in data science and AI.
 
 
 
