@@ -1,5 +1,5 @@
 {% for item in site.portfolio %} 
-<div class="portfolio-modal modal fade" id="{{ item.modalID }}" tabindex="-1" role="dialog" aria-hidden="true"> {# Use item.modalID #}
+<div class="portfolio-modal modal fade" id="{{ item.modalID }}" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="close-modal" data-dismiss="modal">
@@ -11,14 +11,21 @@
         <div class="row">
           <div class="col-lg-8 mx-auto">
             <div class="modal-body">
-              <h2 class="text-uppercase">{{ item.title }}</h2>
-              <p class="item-intro text-muted">{{ item.subtitle }}</p>
               <img class="img-fluid d-block mx-auto" src="{{ item.image | relative_url }}" alt="{{ item.alt }}">
-              <p>{{ item.content | markdownify }}</p>
+              
+              {% unless item.hide_title == true %}
+                <h2 class="text-uppercase">{{ item.title }}</h2>
+              {% endunless %}
+              
+              <p class="item-intro text-muted">{{ item.subtitle }}</p>
+              
+              {{ item.content | markdownify }}
+              
               <ul class="list-inline">
                 {% if item.client %}<li><strong>Client:</strong> {{ item.client }}</li>{% endif %}
                 {% if item.category %}<li><strong>Category:</strong> {{ item.category }}</li>{% endif %}
               </ul>
+              
               <button class="btn btn-primary btn-xl text-uppercase" data-dismiss="modal" type="button">
                 <i class="fas fa-xmark me-1"></i>
                 Close Project
@@ -33,7 +40,7 @@
 {% endfor %}
 
 {% for item in site.join_options %} 
-<div class="join-modal modal fade" id="{{ item.modalID }}" tabindex="-1" role="dialog" aria-hidden="true"> {# Use item.modalID #}
+<div class="join-modal modal fade" id="{{ item.modalID }}" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="close-modal" data-dismiss="modal">
@@ -48,7 +55,9 @@
               <h2 class="text-uppercase">{{ item.title }}</h2>
               <p class="item-intro text-muted">{{ item.subtitle }}</p>
               <img class="img-fluid d-block mx-auto" src="{{ item.image | relative_url }}" alt="{{ item.alt }}">
-              <p>{{ item.content | markdownify }}</p>
+              
+              {{ item.content | markdownify }}
+              
               <ul class="list-inline">
                 {% if item.category %}<li><strong>Category:</strong> {{ item.category }}</li>{% endif %}
                 {% if item.link_url %}<li><strong>Link:</strong> <a href="{{ item.link_url }}" {% if item.link_url contains 'http' %}target="_blank" rel="noopener noreferrer"{% endif %}>{{ item.link_text | default: "Learn More" }}</a></li>{% endif %}
@@ -67,7 +76,7 @@
 {% endfor %}
 
 {% for item in site.team %} 
-<div class="team-modal modal fade" id="{{ item.modalID }}" tabindex="-1" role="dialog" aria-hidden="true"> {# Use item.modalID #}
+<div class="team-modal modal fade" id="{{ item.modalID }}" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="close-modal" data-dismiss="modal">
@@ -85,7 +94,9 @@
               {% endif %}
               <p class="item-intro text-muted">{{ item.subtitle }}</p>
               <img class="img-fluid d-block mx-auto" src="{{ item.image | relative_url }}" alt="{{ item.alt }}">
-              <p>{{ item.content | markdownify }}</p>
+              
+              {{ item.content | markdownify }}
+              
               {% if item.social %}
                 <ul class="list-inline social-buttons text-center mb-4"> 
                   {% for social_link in item.social %}
