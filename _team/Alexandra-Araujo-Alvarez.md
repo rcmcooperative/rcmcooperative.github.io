@@ -17,7 +17,7 @@ social:
 title: Alexandra Araujo alvarez
 pronouns: she/her
 subtitle: Core team
-image: assets/img/team/Alexandra-Araujo-Alvarez.jpg
+image: assets/img/team/Alex-Araujo-Alvarez.jpg
 alt: Alexandra Araujo Alvarez
 social:
     - url: https://www.linkedin.com/in/alexandraaaj/
