@@ -2,9 +2,10 @@
 caption: #Danny-Garside
   title: Danny Garside
   pronouns: they/them
-  subtitle: Core team 
+  subtitle: Core Member
   thumbnail: assets/img/team/danny-garside.jpg
 modalID: teamDannyGarside
+role_type: "member"
 social:
     - url: https://social.coop/@da5nsy
       icon: fab fa-mastodon

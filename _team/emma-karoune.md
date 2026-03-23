@@ -5,6 +5,7 @@ caption: #Emma-Karoune
   subtitle: Co-Founder
   thumbnail: assets/img/team/emma-karoune.jpg
 modalID: teamEmmakaroune
+role_type: "founder"
 social:
     - url: https://www.linkedin.com/in/emma-karoune-81016137/
       icon: fab fa-linkedin-in

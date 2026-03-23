@@ -5,6 +5,7 @@ caption: #Cassandra-Gould-van-Praag
   subtitle: Co-Founder / Executive Director
   thumbnail: assets/img/team/cassandra-gouldvanpraag.jpg
 modalID: teamCassandragouldvanpraag
+role_type: "founder"
 social:
     - url: https://www.linkedin.com/in/cassandra-gould-van-praag-b8292a16/
       icon: fab fa-linkedin-in

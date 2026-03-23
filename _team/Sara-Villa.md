@@ -2,9 +2,10 @@
 caption: #Sara-Villa
   title: Sara Villa
   pronouns: she/her
-  subtitle: Core team 
+  subtitle: Core Member
   thumbnail: assets/img/team/sara-villa.jpg
 modalID: teamSaraVilla
+role_type: "member"
 social:
     - url: https://www.linkedin.com/in/s-villa/
       icon: fab fa-linkedin-in

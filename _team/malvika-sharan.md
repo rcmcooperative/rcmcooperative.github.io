@@ -5,6 +5,7 @@ caption: #Malvika-Sharan
   subtitle: Co-Founder
   thumbnail: assets/img/team/malvika-sharan.jpg
 modalID: teamMalvikasharan
+role_type: "founder"
 social:
     - url: https://www.linkedin.com/in/malvikasharan/
       icon: fab fa-linkedin-in

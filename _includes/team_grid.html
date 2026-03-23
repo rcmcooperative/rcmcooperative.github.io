@@ -7,37 +7,71 @@
         <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].team.text | markdownify }}</h3>
       </div>
     </div>
-    <div class="row">
-  {% for project in site.team %} 
-      <div class="col-md-4 col-sm-6 team-item">
-        <a class="team-link" data-toggle="modal" href="#{{ project.modalID }}">
-          <div class="team-hover">
-            <div class="team-hover-content">
-              <i class="{{ site.data.style.team-icon | default: "fas fa-plus fa-3x" }}"></i>
+
+    <div class="row justify-content-center">
+      <div class="col-lg-12 text-center">
+        <h1 class="section-subheading" style="margin-bottom: 40px;">Co-Founders</h1>
+      </div>
+      {% for person in site.team %}
+        {% if person.role_type == "founder" %}
+          <div class="col-md-4 col-sm-6 team-item">
+            <a class="team-link" data-toggle="modal" href="#{{ person.modalID }}">
+              <div class="team-hover">
+                <div class="team-hover-content">
+                  <i class="{{ site.data.style.team-icon | default: "fas fa-plus fa-3x" }}"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="{{ person.caption.thumbnail }}" alt="">
+            </a>
+            <div class="team-caption">
+              <h4>{{ person.caption.title }}</h4>
+              {% if person.caption.pronouns %} <p class="text-muted small">({{ person.caption.pronouns }})</p> {% endif %}
+              <p class="text-muted">{{ person.caption.subtitle }}</p>
+              {% if person.social %}
+                <ul class="list-inline social-buttons">
+                  {% for social_link in person.social %}
+                    <li class="list-inline-item"><a href="{{ social_link.url }}" target="_blank" rel="noopener noreferrer"><i class="{{ social_link.icon }}"></i></a></li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
             </div>
           </div>
-          <img class="img-fluid" src="{{ project.caption.thumbnail }}" alt="">
-        </a>
-        <div class="team-caption">
-          <h4>{{ project.caption.title }}</h4>
-          {% if project.caption.pronouns %} 
-            <p class="text-muted small">({{ project.caption.pronouns }})</p> 
-          {% endif %}
-          <p class="text-muted">{{ project.caption.subtitle }}</p>
-          {% if project.social %}
-            <ul class="list-inline social-buttons">
-              {% for social_link in project.social %}
-              <li class="list-inline-item">
-                <a href="{{ social_link.url }}" target="_blank" rel="noopener noreferrer">
-                  <i class="{{ social_link.icon }}"></i>
-                </a>
-              </li>
-              {% endfor %}
-            </ul>
-          {% endif %}
-        </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    <div style="margin: 40px 0;"></div>
+
+    <div class="row justify-content-center">
+      <div class="col-lg-12 text-center">
+        <h1 class="section-subheading" style="margin-bottom: 40px;">Core Members</h1>
       </div>
-  {% endfor %}
+      {% for person in site.team %}
+        {% if person.role_type == "member" %}
+          <div class="col-md-4 col-sm-6 team-item">
+            <a class="team-link" data-toggle="modal" href="#{{ person.modalID }}">
+              <div class="team-hover">
+                <div class="team-hover-content">
+                  <i class="{{ site.data.style.team-icon | default: "fas fa-plus fa-3x" }}"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="{{ person.caption.thumbnail }}" alt="">
+            </a>
+            <div class="team-caption">
+              <h4>{{ person.caption.title }}</h4>
+              {% if person.caption.pronouns %} <p class="text-muted small">({{ person.caption.pronouns }})</p> {% endif %}
+              <p class="text-muted">{{ person.caption.subtitle }}</p>
+              {% if person.social %}
+                <ul class="list-inline social-buttons">
+                  {% for social_link in person.social %}
+                    <li class="list-inline-item"><a href="{{ social_link.url }}" target="_blank" rel="noopener noreferrer"><i class="{{ social_link.icon }}"></i></a></li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
     </div>
   </div>
 </section>
@@ -50,37 +84,71 @@
         <h3 class="section-subheading text-muted">{{ site.data.sitetext.team.text | markdownify }}</h3>
       </div>
     </div>
-    <div class="row">
-  {% for project in site.team %}
-      <div class="col-md-4 col-sm-6 team-item">
-        <a class="team-link" data-toggle="modal" href="#{{ project.modalID }}">
-          <div class="team-hover">
-            <div class="team-hover-content">
-              <i class="{{ site.data.style.team-icon | default: "fas fa-plus fa-3x" }}"></i>
+
+    <div class="row justify-content-center">
+      <div class="col-lg-12 text-center">
+        <h3 class="section-subheading text-muted" style="margin-bottom: 40px;">Co-founders</h3>
+      </div>
+      {% for person in site.team %}
+        {% if person.role_type == "founder" %}
+          <div class="col-md-4 col-sm-6 team-item">
+            <a class="team-link" data-toggle="modal" href="#{{ person.modalID }}">
+              <div class="team-hover">
+                <div class="team-hover-content">
+                  <i class="{{ site.data.style.team-icon | default: "fas fa-plus fa-3x" }}"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="{{ person.caption.thumbnail }}" alt="">
+            </a>
+            <div class="team-caption">
+              <h4>{{ person.caption.title }}</h4>
+              {% if person.caption.pronouns %} <p class="text-muted small">({{ person.caption.pronouns }})</p> {% endif %}
+              <p class="text-muted">{{ person.caption.subtitle }}</p>
+              {% if person.social %}
+                <ul class="list-inline social-buttons">
+                  {% for social_link in person.social %}
+                    <li class="list-inline-item"><a href="{{ social_link.url }}" target="_blank" rel="noopener noreferrer"><i class="{{ social_link.icon }}"></i></a></li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
             </div>
           </div>
-          <img class="img-fluid" src="{{ project.caption.thumbnail }}" alt="">
-        </a>
-        <div class="team-caption">
-          <h4>{{ project.caption.title }}</h4>
-          {% if project.caption.pronouns %} 
-            <p class="text-muted small">({{ project.caption.pronouns }})</p> 
-          {% endif %}
-          <p class="text-muted">{{ project.caption.subtitle }}</p>
-          {% if project.social %}
-            <ul class="list-inline social-buttons">
-              {% for social_link in project.social %}
-              <li class="list-inline-item">
-                <a href="{{ social_link.url }}" target="_blank" rel="noopener noreferrer">
-                  <i class="{{ social_link.icon }}"></i>
-                </a>
-              </li>
-              {% endfor %}
-            </ul>
-          {% endif %}
-        </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    <div style="margin: 40px 0;"></div>
+
+    <div class="row justify-content-center">
+      <div class="col-lg-12 text-center">
+        <h3 class="section-subheading text-muted" style="margin-bottom: 40px;">Core Team</h3>
       </div>
-  {% endfor %}
+      {% for person in site.team %}
+        {% if person.role_type == "member" %}
+          <div class="col-md-4 col-sm-6 team-item">
+            <a class="team-link" data-toggle="modal" href="#{{ person.modalID }}">
+              <div class="team-hover">
+                <div class="team-hover-content">
+                  <i class="{{ site.data.style.team-icon | default: "fas fa-plus fa-3x" }}"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="{{ person.caption.thumbnail }}" alt="">
+            </a>
+            <div class="team-caption">
+              <h4>{{ person.caption.title }}</h4>
+              {% if person.caption.pronouns %} <p class="text-muted small">({{ person.caption.pronouns }})</p> {% endif %}
+              <p class="text-muted">{{ person.caption.subtitle }}</p>
+              {% if person.social %}
+                <ul class="list-inline social-buttons">
+                  {% for social_link in person.social %}
+                    <li class="list-inline-item"><a href="{{ social_link.url }}" target="_blank" rel="noopener noreferrer"><i class="{{ social_link.icon }}"></i></a></li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
     </div>
   </div>
 </section>
