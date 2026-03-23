@@ -3,7 +3,7 @@ caption: #Alexandra Araujo Alvarez
   title: Alexandra Araujo Alvarez
   pronouns: she/her
   subtitle: Core team 
-  thumbnail: assets/img/team/Alexandra-Araujo-Alvarez.jpg
+  thumbnail: assets/img/team/alexandra-araujo-alvarez.jpg
 modalID: teamAlexandraAraujoAlvarez
 social:
     - url: https://www.linkedin.com/in/alexandraaaj/
@@ -17,7 +17,7 @@ social:
 title: Alexandra Araujo alvarez
 pronouns: she/her
 subtitle: Core team
-image: assets/img/team/Alex-Araujo-Alvarez.jpg
+image: assets/img/team/alexandra-araujo-alvarez.jpg
 alt: Alexandra Araujo Alvarez
 social:
     - url: https://www.linkedin.com/in/alexandraaaj/
