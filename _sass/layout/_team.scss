@@ -40,27 +40,53 @@
         }
       }
     }
-    .team-caption {
-      max-width: 400px;
-      margin: 0 auto;
-      padding: 25px;
-      text-align: center;
-      background-color: $white;
-      flex-grow: 1; // Allows the caption to grow and fill available vertical space
+  .team-caption {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 30px 25px; // Extra padding at top/bottom of the whole box
+    text-align: center;
+    background-color: $white;
+    flex-grow: 1; 
+    display: flex;
+    flex-direction: column;
+
+    h4 {
+      margin: 0 0 5px 0; // Tight gap between Name and Pronouns
+      text-transform: none;
+      min-height: 2.4em;
+      line-height: 1.2;
       display: flex;
-      flex-direction: column;
-      justify-content: space-between; // Pushes content apart, icons to bottom
-      h4 {
-        margin: 0;
-        text-transform: none;
-      }
-      p {
-        font-size: 16px;
-        font-style: italic;
-        margin: 0;
-        @include serif-font;
+      align-items: center;
+      justify-content: center;
+    }
+
+    // Pronouns (she/her)
+    .text-muted.small {
+      margin-bottom: 5px !important; // Creates a clear break after the name block
+      font-size: 14px;
+      display: block;
+    }
+
+    // Subtitle (Role)
+    p {
+      font-size: 16px;
+      font-style: italic;
+      margin-bottom: 5px !important; // Pushes the social icons away significantly
+      @include serif-font;
+    }
+
+    // Social Buttons container
+    .social-buttons {
+      margin-top: auto; // This is the "magic" that keeps icons at the very bottom
+      padding-top: 5px; 
+      margin-bottom: 0 !important;
+      
+      // If you need more space between the individual icons:
+      .list-inline-item {
+        margin: 0 5px; 
       }
     }
+  }
   }
   * {
     z-index: 2;
