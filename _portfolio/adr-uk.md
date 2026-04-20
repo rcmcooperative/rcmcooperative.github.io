@@ -3,7 +3,7 @@
 hide_title: true
 title: "Administrative Data Research UK"
 subtitle:
-image: ../assets/img/clients/ADRUK_-_logo_rgb_rgb_colour.png
+image: ../assets/img/clients/ADRUK_-_logo_rgb_rgb_colour-small.png
 alt: ADR UK logo
 modalID: portfolioADR
 
@@ -11,7 +11,7 @@ modalID: portfolioADR
 caption:
   title: Administrative Data Research UK
   subtitle: Developing recommendations for sustainability of ADR UK communities
-  thumbnail: ../assets/img/clients/ADRUK_-_logo_rgb_rgb_colour.png
+  thumbnail: ../assets/img/clients/ADRUK_-_logo_rgb_rgb_colour-small.png
 
 ---
 <!-- note all headings should be H3 or greater -->
