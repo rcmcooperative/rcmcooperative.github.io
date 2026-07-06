@@ -21,7 +21,7 @@ email      : cassandra.gouldvanpraag@rcmcooperative.com #this is also the email 
 description: "RCM Cooperative works with and for communities to develop and refine their capacity for equitable, resiliant and collaborative research."
 author     : RCM Cooperative
 logo:     #optional, defaults to site title
-  path: assets\img\clients\rcmcoop-peach.png
+  path: /assets/img/clients/rcmcoop-peach.png
   height: 60 #height in px, defaults to 52px
 
 locale: "en-US" # See available languages in _data/sitetext.yml
@@ -31,10 +31,19 @@ analytics:
 
 collections:
   portfolio:
+    output: true
+    permalink: /portfolio/:path/
   join_options:
     output: false
   team:
     output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "portfolio"
+    values:
+      layout: "portfolio-item"
 
 markdown: kramdown
 
