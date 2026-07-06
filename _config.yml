@@ -33,8 +33,9 @@ collections:
   portfolio:
     output: true
     permalink: /portfolio/:path/
-  join_options:
-    output: false
+  join:
+    output: true
+    permalink: /join/:path/
   team:
     output: true
     permalink: /team/:path/
@@ -50,6 +51,11 @@ defaults:
       type: "team"
     values:
       layout: "team-item"
+  - scope:
+     path: ""
+     type: "join"
+    values:
+     layout: "join-item"
 
 markdown: kramdown
 

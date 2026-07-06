@@ -2,13 +2,13 @@
 caption: #Support
   title: Support us
   subtitle: Contribute to collective growth
-  thumbnail: assets/img/join/aaron-santelices-z03mWBdAq5I-unsplash.jpg
+  thumbnail: /assets/img/join/aaron-santelices-z03mWBdAq5I-unsplash.jpg
 modalID: joinSupport
   
 #what displays when the item is clicked:
 title: Support us
 subtitle: Contribute to collective growth
-image: assets/img/join/aaron-santelices-z03mWBdAq5I-unsplash.jpg #main image, can be a link or a file in assets/img/portfolio
+image: /assets/img/join/aaron-santelices-z03mWBdAq5I-unsplash.jpg #main image, can be a link or a file in assets/img/portfolio
 alt: image alt text
 
 ---

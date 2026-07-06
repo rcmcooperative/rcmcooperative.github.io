@@ -2,13 +2,13 @@
 caption: #Leadership
   title: Join the leadership
   subtitle: Define our direction, for the benefit of all members.
-  thumbnail: assets/img/join/johannes-plenio-voQ97kezCx0-unsplash.jpg
+  thumbnail: /assets/img/join/johannes-plenio-voQ97kezCx0-unsplash.jpg
 modalID: joinLeadership
   
 #what displays when the item is clicked:
 title: Join our leadership
 subtitle: Define our direction, for the benefit of all members.
-image: assets/img/join/johannes-plenio-voQ97kezCx0-unsplash.jpg #main image, can be a link or a file in assets/img/portfolio
+image: /assets/img/join/johannes-plenio-voQ97kezCx0-unsplash.jpg #main image, can be a link or a file in assets/img/portfolio
 alt: image alt text
 
 ---

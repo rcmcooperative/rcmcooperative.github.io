@@ -8,7 +8,8 @@
       </div>
     </div>
     <div class="row">
-  {% for project in site.join_options %} 
+  {% for project in site.join %} 
+  {% unless project.redirect_only %}
       <div class="col-md-4 col-sm-6 join-item">
         <a class="join-link" data-toggle="modal" href="#{{ project.modalID }}">
           <div class="join-hover">
@@ -23,6 +24,7 @@
           <p class="text-muted">{{ project.caption.subtitle }}</p>
         </div>
       </div>
+  {% endunless %}
   {% endfor %}
     </div>
   </div>
@@ -37,7 +39,8 @@
       </div>
     </div>
     <div class="row">
-  {% for project in site.join_options %}
+  {% for project in site.join %}
+  {% unless project.redirect_only %}
       <div class="col-md-4 col-sm-6 join-item">
         <a class="join-link" data-toggle="modal" href="#{{ project.modalID }}">
           <div class="join-hover">
@@ -52,6 +55,7 @@
           <p class="text-muted">{{ project.caption.subtitle }}</p>
         </div>
       </div>
+  {% endunless %}
   {% endfor %}
     </div>
   </div>

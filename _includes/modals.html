@@ -45,7 +45,8 @@
 {% endunless %}
 {% endfor %}
 
-{% for item in site.join_options %} 
+{% for item in site.join %} 
+{% unless item.redirect_only %}
 <div class="join-modal modal fade" id="{{ item.modalID }}" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -58,6 +59,10 @@
         <div class="row">
           <div class="col-lg-8 mx-auto">
             <div class="modal-body">
+              <a href="{{ item.url | relative_url }}" class="btn btn-outline-secondary btn-sm mb-3">
+                <i class="fas fa-link me-1"></i> Direct link to this page
+              </a>
+
               <h2 class="text-uppercase">{{ item.title }}</h2>
               <p class="item-intro text-muted">{{ item.subtitle }}</p>
               <img class="img-fluid d-block mx-auto" src="{{ item.image | relative_url }}" alt="{{ item.alt }}">
@@ -79,6 +84,7 @@
     </div>
   </div>
 </div>
+{% endunless %}
 {% endfor %}
 
 {% for item in site.team %} 

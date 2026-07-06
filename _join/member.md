@@ -2,13 +2,13 @@
 caption: #Member
   title: Become a member
   subtitle: Position yourself for growth and development.
-  thumbnail: assets/img/join/steven-kamenar-MMJx78V7xS8-unsplash.jpg
+  thumbnail: /assets/img/join/steven-kamenar-MMJx78V7xS8-unsplash.jpg
 modalID: joinMember
   
 #what displays when the item is clicked:
 title: Become a member
 subtitle: Position yourself for growth and development.
-image: assets/img/join/steven-kamenar-MMJx78V7xS8-unsplash.jpg #main image, can be a link or a file in assets/img/portfolio
+image: /assets/img/join/steven-kamenar-MMJx78V7xS8-unsplash.jpg #main image, can be a link or a file in assets/img/portfolio
 alt: image alt text
 
 ---
