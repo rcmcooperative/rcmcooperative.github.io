@@ -2,7 +2,6 @@
 <nav
   class="navbar navbar-expand-lg navbar-dark fixed-top"
   id="mainNav"
-  style="background-color: #212529"
 >
   <div class="container">
     <a class="navbar-brand js-scroll-trigger" href="{{ site.baseurl }}/#">
@@ -31,14 +30,11 @@
         <li class="nav-item">
           {%- if link.url -%}
           <a class="nav-link js-scroll-trigger" href="{{ link.url }}"
-            >{{ link.title }}</a
-          >
+            >{{ link.title }}</a>
           {%- elsif link.section -%}
-          <a
-            class="nav-link js-scroll-trigger"
+            <a class="nav-link js-scroll-trigger"
             href="{{ site.baseurl }}/#{{ link.section }}"
-            >{{ link.title }}</a
-          >
+            >{{ link.title }}</a>
           {%- else -%}
           <a class="nav-link js-scroll-trigger" href="#">{{ link.title }}</a>
           {%- endif -%}
@@ -49,14 +45,11 @@
         <li class="nav-item">
           {%- if link.url -%}
           <a class="nav-link js-scroll-trigger" href="{{ link.url }}"
-            >{{ link.title }}</a
-          >
+            >{{ link.title }}</a>
           {%- elsif link.section -%}
-          <a
-            class="nav-link js-scroll-trigger"
+            <a class="nav-link js-scroll-trigger"
             href="{{ site.baseurl }}/#{{ link.section }}"
-            >{{ link.title }}</a
-          >
+            >{{ link.title }}</a>
           {%- else -%}
           <a class="nav-link js-scroll-trigger" href="#">{{ link.title }}</a>
           {%- endif -%}
