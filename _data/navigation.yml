@@ -22,7 +22,7 @@ en: &DEFAULT_EN
     # - title: "Timeline"
     #   section: timeline
     - title: "Team"
-      section: team
+      dropdown: team_roles
     - title: "Contact"
       section: contact
     # - title: "Theme Source"

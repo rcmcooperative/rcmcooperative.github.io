@@ -42,6 +42,33 @@
         }
       }
     }
+    .dropdown-menu {
+      background-color: $gray-900;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      margin-top: 0;
+      .dropdown-header {
+        color: $primary;
+        text-transform: uppercase;
+        font-size: 75%;
+        letter-spacing: 1px;
+        @include heading-font;
+      }
+      .dropdown-item {
+        color: white;
+        font-size: 90%;
+        text-transform: none;
+        letter-spacing: normal;
+        @include heading-font;
+        &:hover,
+        &:focus {
+          background-color: rgba(255, 255, 255, 0.05);
+          color: $primary;
+        }
+      }
+      .dropdown-divider {
+        border-top-color: rgba(255, 255, 255, 0.1);
+      }
+    }
   }
 }
 @media (min-width: 992px) {
