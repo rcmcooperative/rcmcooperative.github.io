@@ -3,7 +3,7 @@ caption: #Malvika-Sharan
   title: Malvika Sharan
   pronouns: she/her
   subtitle: Co-Founder
-  thumbnail: assets/img/team/malvika-sharan.jpg
+  thumbnail: /assets/img/team/malvika-sharan.jpg
 modalID: teamMalvikasharan
 role_type: "founder"
 social:
@@ -18,7 +18,7 @@ social:
 title: Malvika Sharan
 pronouns: she/her
 subtitle: Co-Founder
-image: assets/img/team/malvika-sharan.jpg
+image: /assets/img/team/malvika-sharan.jpg
 alt: Malvika Sharan
 social:
     - url: https://www.linkedin.com/in/malvikasharan/

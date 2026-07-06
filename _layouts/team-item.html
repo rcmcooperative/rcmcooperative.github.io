@@ -1,0 +1,46 @@
+---
+layout: default
+---
+{% include nav.html %}
+
+<div id="pagecontainer">
+  <section class="page-section" id="team-item">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <a href="{{ '/' | relative_url }}#team" class="btn btn-link mb-4">&larr; Back to Team</a>
+
+          <a href="{{ page.url | relative_url }}" class="btn btn-outline-secondary btn-sm d-block mx-auto mb-4" style="max-width: fit-content;">
+            <i class="fas fa-link me-1"></i> Direct link to this profile
+          </a>
+
+          <img class="img-fluid d-block mx-auto mb-4" src="{{ page.image | relative_url }}" alt="{{ page.alt }}">
+
+          <h1 class="text-uppercase text-center">{{ page.title }}</h1>
+
+          {% if page.pronouns %}
+            <p class="item-intro text-muted small text-center">({{ page.pronouns }})</p>
+          {% endif %}
+
+          {% if page.subtitle %}
+            <p class="item-intro text-muted text-center">{{ page.subtitle }}</p>
+          {% endif %}
+
+          {{ content }}
+
+          {% if page.social %}
+            <ul class="list-inline social-buttons text-center mb-4">
+              {% for social_link in page.social %}
+              <li class="list-inline-item mx-2">
+                <a href="{{ social_link.url }}" target="_blank" rel="noopener noreferrer">
+                  <i class="{{ social_link.icon }}"></i>
+                </a>
+              </li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

@@ -3,7 +3,7 @@ caption: #Emma-Karoune
   title: Emma Karoune
   pronouns: she/her
   subtitle: Co-Founder
-  thumbnail: assets/img/team/emma-karoune.jpg
+  thumbnail: /assets/img/team/emma-karoune.jpg
 modalID: teamEmmakaroune
 role_type: "founder"
 social:
@@ -18,7 +18,7 @@ social:
 title: Emma Karoune
 pronouns: she/her
 subtitle: Co-Founder
-image: assets/img/team/emma-karoune.jpg
+image: /assets/img/team/emma-karoune.jpg
 alt: Emma Karoune
 social:
     - url: https://www.linkedin.com/in/emma-karoune-81016137/

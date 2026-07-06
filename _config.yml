@@ -37,6 +37,7 @@ collections:
     output: false
   team:
     output: true
+    permalink: /team/:path/
 
 defaults:
   - scope:
@@ -44,6 +45,11 @@ defaults:
       type: "portfolio"
     values:
       layout: "portfolio-item"
+  - scope:
+      path: ""
+      type: "team"
+    values:
+      layout: "team-item"
 
 markdown: kramdown
 

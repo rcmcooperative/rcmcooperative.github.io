@@ -1,9 +1,9 @@
 ---
-caption: #Alexandra Araujo Alvarez
+caption: #Alexandra-Araujo-Alvarez
   title: Alexandra Araujo Alvarez
   pronouns: she/her
   subtitle: Core Member 
-  thumbnail: assets/img/team/alexandra-araujo-alvarez.jpg
+  thumbnail: /assets/img/team/alexandra-araujo-alvarez.jpg
 modalID: teamAlexandraAraujoAlvarez
 role_type: "member"
 social:
@@ -15,10 +15,10 @@ social:
       icon: fab fa-github
   
 #what displays when the item is clicked:
-title: Alexandra Araujo alvarez
+title: Alexandra Araujo Alvarez
 pronouns: she/her
 subtitle: Core team
-image: assets/img/team/alexandra-araujo-alvarez.jpg
+image: /assets/img/team/alexandra-araujo-alvarez.jpg
 alt: Alexandra Araujo Alvarez
 social:
     - url: https://www.linkedin.com/in/alexandraaaj/

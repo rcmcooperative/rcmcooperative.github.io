@@ -3,7 +3,7 @@ caption: #Danny-Garside
   title: Danny Garside
   pronouns: they/them
   subtitle: Core Member
-  thumbnail: assets/img/team/danny-garside.jpg
+  thumbnail: /assets/img/team/danny-garside.jpg
 modalID: teamDannyGarside
 role_type: "member"
 social:
@@ -18,7 +18,7 @@ social:
 title: Danny Garside
 pronouns: they/them
 subtitle: Core team
-image: assets/img/team/danny-garside.jpg
+image: /assets/img/team/danny-garside.jpg
 alt: Danny Garside
 social:
     - url: https://social.coop/@da5nsy
