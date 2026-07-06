@@ -1,4 +1,5 @@
 {% for item in site.portfolio %} 
+{% unless item.redirect_only %}
 <div class="portfolio-modal modal fade" id="{{ item.modalID }}" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -41,6 +42,7 @@
     </div>
   </div>
 </div>
+{% endunless %}
 {% endfor %}
 
 {% for item in site.join_options %} 
