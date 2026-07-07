@@ -119,7 +119,6 @@ img::-moz-selection {
   /* RE-CENTERING: Highly specific selectors to force the Header items back to middle */
   &.modal-body h2.text-uppercase,
   &.modal-body .item-intro,
-  &.modal-body img,
   &.modal-body .list-inline,
   &.modal-body .btn {
     text-align: center !important;
@@ -127,6 +126,15 @@ img::-moz-selection {
     margin-right: auto !important;
     display: block;
     max-width: fit-content;
+  }
+
+  /* Keep the modal image centred and responsive */
+  &.modal-body img {
+    display: block;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    max-width: 100% !important;
+    height: auto;
   }
 
   /* Fix for social icon row layout */
