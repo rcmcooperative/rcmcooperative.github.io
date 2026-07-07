@@ -74,6 +74,11 @@ en: &DEFAULT_EN
         align: right
     end: "Be Part <br> of Our <br> Story!"
 
+  blog:
+    section: blog
+    title: Blog
+    text: Insights and updates from the RCM Cooperative.
+
   about:
     title: "About Us"
     text: "A cooperative of community managers dedicated to creating equitable, resilient and collaborative research."

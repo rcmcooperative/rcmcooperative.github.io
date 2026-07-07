@@ -1,0 +1,46 @@
+---
+layout: default
+permalink: /blog/
+pagination:
+  enabled: true
+archive_page: true
+---
+{% include nav.html %}
+
+<div id="pagecontainer">
+  <section class="page-section" id="blog-archive">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h1 class="text-uppercase text-center mb-5">Blog</h1>
+
+          {% for post in paginator.posts %}
+          <div style="display: flex; gap: 16px; padding: 20px 0; border-bottom: 1px solid rgba(0,0,0,0.1);">
+            {% if post.image %}
+            <img src="{{ post.image | relative_url }}" alt="{{ post.alt }}" style="width: 96px; height: 96px; object-fit: cover; border-radius: 4px; flex-shrink: 0;">
+            {% endif %}
+            <div style="min-width: 0;">
+              {% assign words = post.content | number_of_words %}
+              {% assign read_time = words | divided_by: 200 | at_least: 1 %}
+              <p class="text-muted small mb-1">{{ post.date | date: "%-d %B %Y" }} &middot; {{ read_time }} min read</p>
+              <h4><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h4>
+              <p class="text-muted">{{ post.excerpt }}</p>
+            </div>
+          </div>
+          {% endfor %}
+
+          <div class="d-flex justify-content-between mt-4">
+            {% if paginator.previous_page %}
+              <a href="{{ paginator.previous_page_path | relative_url }}" class="btn btn-link">&larr; Newer posts</a>
+            {% else %}
+              <span></span>
+            {% endif %}
+            {% if paginator.next_page %}
+              <a href="{{ paginator.next_page_path | relative_url }}" class="btn btn-link ml-auto">Older posts &rarr;</a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
