@@ -1,12 +1,14 @@
 ---
 name: Blog Idea
 about: Create an issue for each blog post idea for the website
-title: "[COMMS]"
+title: "[BLOG]"
 labels: ''
 assignees: ''
 ---
 
 # Blog - **<TITLE/OUTPUT NAME>**
+
+Thank you for contributing to our blog!
 
 Use this issue to suggest and track blog post suggestions for [rcmcooperative.com/blog](https://www.rcmcooperative.com/blog/)
 
