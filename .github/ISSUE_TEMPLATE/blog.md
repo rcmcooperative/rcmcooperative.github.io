@@ -29,4 +29,5 @@ Add further details (for example translation or design needs) and break out into
 ## Publication
 - [ ] Published link: 
 - [ ] Shared internally/announced to team via slack
+- [ ] Reposted from RCM Coop LinkedIn
 - [ ] Shared externally (add links)
