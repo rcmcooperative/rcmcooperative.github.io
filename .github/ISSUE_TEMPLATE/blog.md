@@ -20,12 +20,11 @@ Add further details (for example translation or design needs) and break out into
 
 ## Drafting and review
 - [ ] Sources to be included (list below)
-- [ ] Draft prepared
-- [ ] Draft reviewed by (add core member name)
+- [ ] Draft prepared: use the [template available here](https://docs.google.com/document/d/1fvYigRMgR-k0rPTx62ZSZA4QxSeipQTGSByHHnj1aI0/edit?usp=sharing) and add the link for your drafting area in this issue
+- [ ] Draft reviewed by core member: 
 - [ ] Approved for publication
 
 ## Publication
-- [ ] Published
-- [ ] Link added below:
+- [ ] Published link: 
 - [ ] Shared internally/announced to team via slack
 - [ ] Shared externally (add links)
