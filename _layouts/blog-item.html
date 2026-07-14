@@ -18,6 +18,8 @@ layout: default
           {% assign read_time = words | divided_by: 200 | at_least: 1 %}
           <p class="item-intro text-muted text-center">{{ page.date | date: "%-d %B %Y" }} &middot; {{ read_time }} min read</p>
 
+          {% include blog_author.html %}
+
           {{ content }}
         </div>
       </div>
