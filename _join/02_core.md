@@ -3,7 +3,7 @@ caption: #Core Members
   title: Core Members
   subtitle: Take on responsibility and drive our work forward
   thumbnail: /assets/img/join/apple-fruit-apples-food-drink-7221fe-1024-300x400.jpg #apple
-modalID: joinLeadership
+modalID: joinCore
   
 #what displays when the item is clicked:
 title: Core Members
@@ -12,7 +12,7 @@ image: /assets/img/join/apple-fruit-apples-food-drink-7221fe-1024-300x400.jpg #a
 alt: image alt text
 
 ---
-For people actively shaping the cooperative's work by taking responsibility for a deliverable or sustained active involvement in the coop's decision-making and activities.
+For people actively shaping the cooperative's work by taking responsibility for a deliverable or sustained active involvement in decision-making and activities.
 
 Core members contribute a minimum of six months toward a coop deliverable or sustained activity. Once eligibility is met, Core Membership is valid for 1 year. 
 

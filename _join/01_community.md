@@ -3,7 +3,7 @@ caption: #Community Members
   title: Community Members
   subtitle: Stay connected and shape the direction of our work
   thumbnail: /assets/img/join/steven-kamenar-MMJx78V7xS8-unsplash.jpg #trees
-modalID: joinLeadership
+modalID: joinCommunity
   
 #what displays when the item is clicked:
 title: Community Members

@@ -3,7 +3,7 @@ caption: #Code of Conduct
   title: Code of Conduct
   subtitle: Engage with care and build trust together
   thumbnail: /assets/img/join/aaron-santelices-z03mWBdAq5I-unsplash.jpg #scaffolding
-modalID: joinLeadership
+modalID: joinCoC
   
 #what displays when the item is clicked:
 title: Code of Conduct
