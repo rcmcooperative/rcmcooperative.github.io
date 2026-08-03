@@ -2,7 +2,7 @@
 caption: #Cassandra-Gould-van-Praag
   title: Cassandra Gould van Praag
   pronouns: she/her
-  subtitle: Co-Founder / Executive Director
+  subtitle: Co-Founder / Co-Executive Director
   thumbnail: /assets/img/team/cassandra-gouldvanpraag.jpg
 modalID: teamCassandragouldvanpraag
 role_type: "founder"
@@ -17,7 +17,7 @@ social:
 #what displays when the item is clicked:
 title: Cassandra Gould van Praag
 pronouns: she/her
-subtitle: Co-Founder / Executive Director
+subtitle: Co-Founder / Co-Executive Director
 image: /assets/img/team/cassandra-gouldvanpraag.jpg
 alt: Cassandra Gould van Praag
 social:

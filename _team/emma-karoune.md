@@ -2,7 +2,7 @@
 caption: #Emma-Karoune
   title: Emma Karoune
   pronouns: she/her
-  subtitle: Co-Founder
+  subtitle: Co-Founder / Co-Executive Director
   thumbnail: /assets/img/team/emma-karoune.jpg
 modalID: teamEmmakaroune
 role_type: "founder"
@@ -17,7 +17,7 @@ social:
 #what displays when the item is clicked:
 title: Emma Karoune
 pronouns: she/her
-subtitle: Co-Founder
+subtitle: Co-Founder / Co-Executive Director
 image: /assets/img/team/emma-karoune.jpg
 alt: Emma Karoune
 social:
