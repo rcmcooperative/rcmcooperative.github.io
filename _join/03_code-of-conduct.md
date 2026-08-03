@@ -1,13 +1,13 @@
 ---
 caption: #Code of Conduct
   title: Code of Conduct
-  subtitle: Engage with care and build trust together.
+  subtitle: Engage with care and build trust together
   thumbnail: /assets/img/join/aaron-santelices-z03mWBdAq5I-unsplash.jpg #scaffolding
 modalID: joinLeadership
   
 #what displays when the item is clicked:
 title: Code of Conduct
-subtitle: Engage with care and build trust together.
+subtitle: Engage with care and build trust together
 image: /assets/img/join/aaron-santelices-z03mWBdAq5I-unsplash.jpg #scaffolding
 alt: image alt text
 

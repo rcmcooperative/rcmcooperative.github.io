@@ -1,14 +1,14 @@
 ---
 caption: #Core Members
   title: Core Members
-  subtitle: Take on responsibility and drive our work forward.
-  thumbnail: /assets/img/join/johannes-plenio-voQ97kezCx0-unsplash.jpg #lightbulb
+  subtitle: Take on responsibility and drive our work forward
+  thumbnail: /assets/img/join/apple-fruit-apples-food-drink-7221fe-1024-300x400.jpg #apple
 modalID: joinLeadership
   
 #what displays when the item is clicked:
 title: Core Members
-subtitle: Take on responsibility and drive our work forward.
-image: /assets/img/join/johannes-plenio-voQ97kezCx0-unsplash.jpg #lightbulb
+subtitle: Take on responsibility and drive our work forward
+image: /assets/img/join/apple-fruit-apples-food-drink-7221fe-1024-300x400.jpg #apple
 alt: image alt text
 
 ---
