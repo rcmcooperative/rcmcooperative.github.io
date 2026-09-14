@@ -14,7 +14,11 @@ alt: image alt text
 ---
 For people actively shaping the cooperative's work by taking responsibility for a deliverable or sustained active involvement in decision-making and activities.
 
-Core members contribute a minimum of six months toward a coop deliverable or sustained activity. Once eligibility is met, Core Membership is valid for 1 year. 
+Core membership will be offered to anyone who has:
+1. Contributed for a minimum of six months toward a Co-Op deliverable; and/or 
+2. Shown consistent active engagement and contribution to our community workspaces for a minimum of six months.
+
+Once the membership offer is accepted, it is valid for 1 year. 
 
 Core members vote on high strategic decisions such as electing the Board, approving changes to our constitution, rules and governing policies, special resolutions and profit distribution. Core members are additionally eligible to stand for the Board and to review cooperative publications. Every Core Member gets one vote. All Core Member votes combined count for 75% of the total outcome on each voting decision.
 
