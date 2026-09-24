@@ -1,0 +1,12 @@
+// Blog post pages (_layouts/blog-item.html)
+// Scoped to #blog-item so nothing outside blog posts is affected.
+
+#blog-item {
+  // Markdown images (![alt](path)) render as bare <img> tags without
+  // Bootstrap's .img-fluid class, so make them responsive here.
+  // The id selector outranks any inherited theme rules on <img>.
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
